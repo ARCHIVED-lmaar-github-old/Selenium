@@ -6,6 +6,27 @@
  This code demostrates basic Selenium concepts and functionality using Google and Bing
  such as doing a basic search, storing results in an array and identifying patterns in
  results. This is intended to be used for training/example purposes.
+
+ * Selenium Quick Demo
+ * -----
+ * This is demo will do the following:
+ * 1) Search on google.com
+ *    This first does a search for "Laurence Maar"
+ *    Then grabs all of the link results containing the text "Laurence Maar"
+ *    Then grabs ALL of the link results (output ignores google.com, etc.)
+ *    Filters the List by removing results with google.com and googleusercontent.com
+ *    Clicks on Images link
+ * 2) Search on bing.com
+ *    Just added a simple search on bing.com for variety, no additional processing
+ * 3) Search on google.com
+ *    Randomly pick a search string from a pre-defined String array.
+ *    This is an example of how we can introduce variability into a Selenium script as well as dynamically
+ *    change validation conditions as a result.
+ *    A more complex version of this could retrieve a list of variables from a CSV document, database, etc.
+ * -----
+ * Laurence Maar
+ * https://www.linkedin.com/in/laurencemaar/
+ * https://github.com/laurencemaar/
  */
 
 import org.junit.jupiter.api.Test;
