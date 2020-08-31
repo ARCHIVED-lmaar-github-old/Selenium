@@ -1,3 +1,13 @@
+/*
+ * Laurence Maar
+ * https://www.linkedin.com/in/laurencemaar/
+ * https://github.com/laurencemaar/
+ 
+ This code demostrates basic Selenium concepts and functionality using Google and Bing
+ such as doing a basic search, storing results in an array and identifying patterns in
+ results. This is intended to be used for training/example purposes.
+ */
+
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
